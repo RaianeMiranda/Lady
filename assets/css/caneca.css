@@ -9,13 +9,6 @@ body {
     font-family: 'PT Serif', serif;
 }
 
-.foto {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0px;
-    min-width: 25%;
-    max-width: 70%;
-}
 
 hr {
     max-width: 80%;
@@ -25,41 +18,47 @@ hr {
     text-align: center;
     height: 0px;
 }
-    .img-galeria{ 
-       height:auto;
-       max-width: 50%;
-        margin-right: 50px;
-       text-align:left;
-       align-items:left;
-     }
 
-.title{
-    color:black;
-    text-align: left;
-    font-size: 30px;
+.logo {
+     text-align:center;
+
+    }
+    
+.flex {
+    display:flex;
+   max-width: 1500px;
+    flex-wrap: wrap;
+    margin: 0 auto ; 
 }
 
-.tudo{margin-left: 30px;
-    font-family: 'Bree Serif', serif;
-    font-family: 'PT Serif', serif;}
-
-h1{ color:black;
+.title {
+    margin: 25px;
     text-align: center;
-    font-size: 30px;
-
-} 
-
-.conteudo{
-    color:black;
-    text-align: left;
-    font-size: 20px;
+    font-size: 25px;
 }
 
-h2{ color:black;
+.flex > div {
+    flex:1 1 200px;
+    margin: 10px;
+    text-align: center
+}
+
+h1 {
+    font-size:22px;
     text-align: left;
-    font-size: 20px;
-    margin-bottom:80px;
-} 
+}
+
+p{
+   text-align:left;
+}
+h2{
+    text-align:left;
+}
+
+.caneca{
+    width:350px;
+    height:350px;
+}
 
 
 li,
@@ -69,8 +68,6 @@ a {
     list-style: none;
 }
 
-
-
 .above {
     max-width: 100%;
     max-height: 50px;
@@ -78,6 +75,7 @@ a {
     background-color: black;
     text-align: center;
     height: 0px;
+    margin: 0;
 }
 
 .menuimg {
