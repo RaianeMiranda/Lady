@@ -1,0 +1,95 @@
+body {
+    background-color: #E7DFCA;
+    border: 2.5px solid black;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 20px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'PT Serif', serif;
+}
+
+.foto {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px;
+    min-width: 25%;
+    max-width: 70%;
+}
+
+hr {
+    max-width: 80%;
+    max-height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    height: 0px;
+    margin-bottom:50px 
+}
+
+.title {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold
+}
+
+.conteiner-galeria { font-family: 'Bree Serif', serif;
+    font-family: 'PT Serif', serif;}
+
+.item-galeria {
+    position: relative;
+    text-align: left;
+}
+
+.img-galeria {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    margin-top: 20px
+
+}
+
+.title-galeria {
+    margin-left: 30px;
+    top: 280px;
+    bottom: 0;
+    padding: 0px;
+    width: 100%;
+    font-size: 16pt;
+}
+
+
+
+
+li,
+a {
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+
+
+.above {
+    max-width: 100%;
+    max-height: 50px;
+    border: 1px solid black;
+    background-color: black;
+    text-align: center;
+    height: 0px;
+}
+
+.menuimg {
+    width: 200px;
+    margin: 20px 20px 0 20px;
+    float: left
+}
+
+.menu-inf {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    font-weight: bold;
+
+}
