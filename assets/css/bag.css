@@ -48,9 +48,33 @@ a {
     text-decoration: none;
     color: black;
     list-style: none;
+    font-size: 15px;
+    font-family: 'Bree Serif', serif;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    margin-bottom:10px;
 }
 
+.menuimg {
+    width: 200px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
 
+.duas-colunas{
+    display: flex;
+    
+}
+
+.duas-colunas > div{
+justify-content: flex-start;
+font-weight: bold;
+}
+
+button {
+    background-color: #E7DFCA;
+    border-radius: 20px;
+}
 
 .above {
     max-width: 100%;
@@ -59,18 +83,4 @@ a {
     background-color: black;
     text-align: center;
     height: 0px;
-}
-
-.menuimg {
-    width: 200px;
-    margin: 20px 20px 0 20px;
-    float: left
-}
-
-.menu-inf {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    font-weight: bold;
-
 }
