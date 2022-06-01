@@ -9,6 +9,12 @@ body {
     font-family: 'PT Serif', serif;
 }
 
+.title {
+    margin: 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
 .foto {
     text-align: center;
     margin: 0 auto;

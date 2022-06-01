@@ -26,6 +26,13 @@ hr {
     height: 0px;
 }
 
+.title {
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold
+}
+
 .conteudo {
     margin: 70px;
     font-family: 'Bree Serif', serif;

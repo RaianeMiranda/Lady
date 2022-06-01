@@ -21,6 +21,12 @@ body {
     max-width: 70%;
 }
 
+.title {
+    margin: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold
+}
 hr {
     max-width: 80%;
     max-height: 50px;
